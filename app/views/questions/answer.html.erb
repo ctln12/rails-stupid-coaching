@@ -1,12 +1,23 @@
-<h1>Stupid Coaching</h1>
+<div class='container'>
+  <h1>Stupid Coaching</h1>
 
-<p>Question</p>
+  <div class='left-border'>
+    <%= params[:question] %>
+    <p>–You</p>
+  </div>
 
-<p>Answer</p>
-<% if @answer == 'I am going to work' %>
-  <%= '- Great' %>
-<% elsif @answer[-1] == '?' %>
-  <%= '- Silly question, get dressed and go to work!' %>
-<% else %>
-  <%= '- I dont care, get dressed and go to work!' %>
-<% end %>
+  <div class='left-border yellow-background'>
+    <% if params[:question] == 'I am going to work' %>
+      <%= @answer[0] %>
+    <% elsif params[:question][-1] == '?' %>
+      <%= @answer[1] %>
+    <% else %>
+      <%= @answer[2] %>
+    <% end %>
+    <p>–Answer</p>
+  </div>
+
+  <div id='link'>
+    <%= link_to 'Ask a new question', ask_path %>
+  </div>
+</div>
