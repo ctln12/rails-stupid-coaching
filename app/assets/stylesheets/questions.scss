@@ -1,3 +1,47 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Fresca&display=swap');
+
+body {
+  font-family: "Fresca", "Helvetica", "sans-serif";
+}
+
+#input {
+  width: 400px;
+  height: 40px;
+  border: solid 1px gray;
+  border-radius: 5px;
+  font-family: "Fresca", "Helvetica", "sans-serif";
+  font-size: 1.1em;
+}
+
+#button {
+  width: 50px;
+  height: 45px;
+  border: none;
+  background-color: #2399e8;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.1em;
+  padding: 0;
+  font-family: "Fresca", "Helvetica", "sans-serif";
+}
+
+.container {
+  width: 500px;
+  margin: 10px auto;
+}
+
+.left-border {
+  border-left: solid 5px gray;
+  padding-left: 10px;
+}
+
+.yellow-background {
+  background-color: #FFFCD9;
+}
+
+#link a {
+  text-decoration: none;
+}
