@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Objective**:
 
-Things you may want to cover:
+Implement a simple Rails application with 2 pages:
 
-* Ruby version
+* First page (http://localhost:3000/ask) is a form with an input, where a user can type a question to ask the Coach
 
-* System dependencies
+* After submitting the form, the user is redirected to a new page where she/he will see her/his question and the coach answer.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+That's it!
