@@ -1,6 +1,10 @@
 # README
 
-**Objective**:
+## Rails: Routing, Controllers & Views
+
+Exercise from Le Wagon Full Stack Challenges
+
+### Objective:
 
 Implement a simple Rails application with 2 pages:
 
